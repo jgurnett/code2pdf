@@ -1,16 +1,15 @@
 # Description
-This is a little script I made to convert code to pdf. 
+This is a little script I made to convert code to pdf. <br/>
 For school a few of my profs wanted a hard copy of my code (which is kind of weird)
-so I developed this so I wouldn't have to remeber the commands everytime
+so I developed this so I wouldn't have to remember the commands every time
 
-## Dependancies 
-To install Dependancies just run the script by following these two simple steps: 
-1. Give Script execute permissions: `chmod +x depend.sh`
-2. run dependancies script: `./depend.sh`
+## Dependencies 
+To install Dependencies just run the script by following these two simple steps: 
+1. Give script execute permissions: `chmod +x depend.sh`
+2. Run dependencies script: `./depend.sh`
 
 ## To run
 `./code2pdf.sh < /User/yourPath/yourFile.c`
-
 
 ## Inside of depend.sh
 Flags
@@ -20,4 +19,4 @@ Flags
 - -p file, the output file 
 
 Other Comments
-- Line 8 converts the ps file to a pdf, you can change file name "yourFile.pdf" to whatever you like
+- Line 8 converts the ps file to a pdf, "yourFile.pdf" is the name of your output file

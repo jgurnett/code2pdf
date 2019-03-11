@@ -9,14 +9,12 @@ To install Dependencies just run the script by following these two simple steps:
 2. Run dependencies script: `./depend.sh`
 
 ## To run
-`./code2pdf.sh < /User/yourPath/yourFile.c`
+`./code2pdf.sh yourFile.c desiredFileName.pdf`
+- (currently this only converts files that are in its current directory)
 
 ## Inside of depend.sh
 Flags
-- --title, this is the title that will be at the top of your file ** FOR YOU TO CHANGE 
+- --title, this is the title that will be at the top of your file 
 - -B, Do not print page headers.
 - -2rGE, puts the time it was created, and adds 2 columns to the page
 - -p file, the output file 
-
-Other Comments
-- Line 8 converts the ps file to a pdf, "yourFile.pdf" is the name of your output file

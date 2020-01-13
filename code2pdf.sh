@@ -1,3 +1,4 @@
+#!/bin/bash
 #-----------------------------------------------------------------------------
  #	Author: Joel Gurnett
  #	The script coverts code to pdf so that you can print out your code files

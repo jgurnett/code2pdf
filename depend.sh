@@ -1,3 +1,4 @@
+#!/bin/bash
 #-----------------------------------------------------------------------------
  #	Author: Joel Gurnett
  #	The script retrieves all dependencies required to convert code to pdf
